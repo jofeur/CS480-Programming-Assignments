@@ -43,7 +43,7 @@ void *thread_function(void *arg) {
         }
         
         // Output to console thread id
-        printf("Thread %lu is running\n", (unsigned long)tid);
+        printf("Thread %d is running\n", tid);
 
         sem_post(&FLAG); // Release semaphore
     }
