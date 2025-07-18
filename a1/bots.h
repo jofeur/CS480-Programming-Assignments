@@ -4,6 +4,8 @@
 #include <pthread.h>
 #include <semaphore.h>
 
+extern sem_t FLAG;
+
 void thread_function();
 
 void run_threads();
