@@ -36,7 +36,7 @@ void *thread_function(void *arg) {
         // Open QUOTE.txt file and appen thread id along with quote
         FILE *file = fopen("QUOTE.txt", "a");
         if (file) {
-            fprintf(file, "Thread %lu: %s", (unsigned long)tid, quote);
+            fprintf(file, "Thread %d: %s", tid, quote);
             fclose(file);
         } else {
             perror("QUOTE.txt could not be open");
