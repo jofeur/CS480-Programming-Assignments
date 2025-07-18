@@ -1,9 +1,10 @@
-Authors: Jose Urrea, ......
-Class Account Username: cssc1465, .....
+Authors: Jose Urrea, Abdihakim Ahmed
+Class Account Username: cssc1465, cssc1402
 Class Informartion: CS 480, Summer 2025
 Assignment Information : Programming Assignment #1
-File : README File
+File : README.txt
 
+Test on cssc1465 user
 
 File manifest 
 - bots. h
@@ -11,3 +12,18 @@ File manifest
 - main.c
 - MAKEFILE
 - README
+
+Compile instructions:
+Run make in the a1 directory to generate an executable bots program
+
+Operating instructions:
+Run the bots program using ./bots
+
+List/description of novel/significant design decisions
+Creation of each thread is done using POSIX threads
+Implementation of semaphore usin POSIX semaphores
+Semaphores prevents race conditions protectedby FLAG
+Each thread runs 8 times writing to QUOTE.txt based on even or odd id
+
+Lessons Learned
+Implementation of threads and semaphores using POSIX to avoid race conditions
