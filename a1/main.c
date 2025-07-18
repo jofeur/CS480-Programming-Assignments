@@ -1,6 +1,6 @@
 /*
-    Authors: Jose Urrea, ......
-    Class Account Username: cssc1465, .....
+    Authors: Jose Urrea, Abdihakim Ahmed
+    Class Account Username: cssc1465, cssc1402
     Class Informartion: CS 480, Summer 2025
     Assignment Information : Programming Assignment #1
     File : main.c
